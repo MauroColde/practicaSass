@@ -1,0 +1,79 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background-color: rgb(24, 24, 24);
+  text-align: center;
+}
+
+nav {
+  background-color: rgb(104, 82, 34);
+  text-align: right;
+  padding-top: 8px;
+  padding-bottom: 8px;  
+  padding-right: 25px;
+}
+
+.homeGaleria {
+  color:white;
+  font-size: 20px;
+}
+
+h2 {
+  background-color: rgba(179, 141, 18, 0.55);
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-shadow: 20%;
+  padding: 5px;
+}
+
+h4 {
+  font-size: 24px;
+  color: rgb(240, 240, 240);
+  text-align: justify;
+  background-color: rgba(128, 104, 25, 0.55);
+  padding: 8px;
+}
+
+.foto {
+  width: 80%;
+  margin-top: 60px;
+}
+
+.grid-layout {
+  display: grid;
+  align-items: center;
+  gap: 50px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footerGaleria {
+  background-image: url(/imagenes/fondoFotter.png);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+  text-align: center;
+  font-weight: bold;
+  color:white;
+}
+
+@media (max-width:760px) {
+h4 {
+  text-align: center;
+  font-size: medium;
+  }
+h2{
+  font-size: larger;
+}
+  .foto {
+  width: 250px;
+  }
+.grid-layout {
+  gap: 0px
+  }
+}

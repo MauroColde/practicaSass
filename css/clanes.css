@@ -1,0 +1,82 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background-image: url(/imagenes/fondoClanes.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;  
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: rgb(76, 19, 129);
+  margin-top: 1px;
+  margin-bottom: 80px;
+}
+
+.textoEimagen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textoClanes {
+  background-color: rgb(75, 73, 73, 40%);
+  width: 40%;
+  font-size: 18px;
+  color: white;
+  border-radius: 4px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+  color: rgb(99, 40, 83);
+  margin-top: 40px;
+}
+
+nav {
+  background-color:rgb(41, 19, 19,70);
+  text-align: right;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 25px;
+  margin-bottom: 10px;
+}
+
+.homeClanes {
+  color:white;
+  font-size: 20px;
+}
+
+.fotodeClan {
+  width: 40%;
+  margin-top: 30px;
+  border-radius: 4px;
+}
+
+.footerClanes {
+  background-image: url(/imagenes/fondoFotter.png);
+  padding-top: 10px;
+  margin-top: 45px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  color:white;
+  align-items: flex-end;
+}
+
+@media (max-width:760px) {
+  .textoClanes {
+    width: 85%;  
+  }
+  .fotodeClan {
+    width: 85%;
+  }
+
+}

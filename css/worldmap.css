@@ -1,0 +1,75 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background-image: url(/imagenes/fondoWorldMap.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;  
+}
+
+nav {
+  background-color: rgba(1, 58, 88, 0.7);
+  text-align: right;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 25px;
+  margin-bottom: 10px;   
+}
+
+.homeMap {
+  color:white;
+  font-size: 20px;
+}
+
+h1 {
+  margin-top: 55px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  background-color: rgb(27, 13, 4);
+  margin-left: 539px;
+  margin-right: 539px;
+  font-family:'Times New Roman';
+  border-radius: 5px;
+}
+
+.mundoRs {
+  margin-top: 0px;
+  text-align: center;
+  color: white;
+}
+
+.footerMap {
+  background-image: url(/imagenes/fondoFotter.png);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 140px;
+  text-align: center;
+  font-weight: bold;
+  color:white;
+}
+
+@media (max-width:760px) {
+  nav {
+    width: 93%;
+  }
+  h1 {
+    width: 70%;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 10px;
+  }
+  .mapaimg {
+    padding-left: 9px;
+    width: 70%;
+  }
+  .footerMap {
+    margin-top: 250px;
+  }
+
+}
